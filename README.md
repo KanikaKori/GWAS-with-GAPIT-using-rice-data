@@ -6,6 +6,7 @@ This R script performs a Genome-Wide Association Study (GWAS) using the GAPIT (G
 -GAPIT and EMMA scripts are sourced directly from the developers' server:
 
 source("https://zzlab.net/GAPIT/gapit_functions.txt")
+
 source("https://zzlab.net/GAPIT/emma.txt")
 
 ###2. Load raw phenotype and genotype data

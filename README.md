@@ -45,7 +45,7 @@ myGAPIT <- GAPIT(
 - Phenotype File: tab-separated, with the first column as genotype IDs (Taxa) and remaining columns as trait values.
 - Genotype File: HapMap format with 11 metadata columns followed by genotype data for each Taxa.
 
-###📤 Output:
+### 📤 Output:
 - GAPIT produces result files in the working directory, including:
    Manhattan plots
    QQ plots

@@ -1,8 +1,10 @@
 # GWAS-with-GAPIT-using-rice-data
 This R script performs a Genome-Wide Association Study (GWAS) using the GAPIT (Genome Association and Prediction Integrated Tool) pipeline. The workflow includes preprocessing, data filtering, and running multiple GWAS models using rice genotype and phenotype data.
 
-##Steps and Explanation:##
-###1. Load GAPIT functions###
+##Steps and Explanation:
+
+###1. Load GAPIT functions
+
 -GAPIT and EMMA scripts are sourced directly from the developers' server:
 
 source("https://zzlab.net/GAPIT/gapit_functions.txt")

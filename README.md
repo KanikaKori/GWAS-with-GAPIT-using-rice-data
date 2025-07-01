@@ -48,9 +48,9 @@ myGAPIT <- GAPIT(
 ### 📤 Output:
 - GAPIT produces result files in the working directory, including:
   
-   Manhattan plots
+  a. Manhattan plots
   
-   QQ plots
+  b. QQ plots
   
-   Summary tables of significant marker-trait associations for each model
+  c. Summary tables of significant marker-trait associations for each model
 

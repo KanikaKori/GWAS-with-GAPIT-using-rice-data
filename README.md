@@ -10,6 +10,16 @@ This R script filters SNP markers in a HapMap format genotype file based on two 
 
 - Missing data rate ≤ 10%
 
+### Step 1: Load the HapMap file
+
+- Reads the HapMap file into R as a data frame.
+
+- The HapMap file typically contains:
+
+   - First 11 columns: Metadata (like marker name, chromosome, position, etc.)
+
+   - Remaining columns: Genotype calls per sample (like AA, AG, TT, etc.)
+
 ### B. GWAS_with_GAPIT_for_rice_data.R
 
 ### 1. Load GAPIT functions

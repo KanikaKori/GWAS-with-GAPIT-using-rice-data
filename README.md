@@ -2,6 +2,15 @@
 This R script performs a Genome-Wide Association Study (GWAS) using the GAPIT (Genome Association and Prediction Integrated Tool) pipeline. The workflow includes preprocessing, data filtering, and running multiple GWAS models using rice genotype and phenotype data.
 
 ## Steps and Explanation:
+### A. genotype_file_MAF_filtering.R
+
+This R script filters SNP markers in a HapMap format genotype file based on two quality criteria:
+
+- Minor Allele Frequency (MAF) ≥ 0.05
+
+- Missing data rate ≤ 10%
+
+### B. GWAS_with_GAPIT_for_rice_data.R
 
 ### 1. Load GAPIT functions
 - GAPIT and EMMA scripts are sourced directly from the developers' server:

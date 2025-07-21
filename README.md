@@ -27,6 +27,14 @@ This R script filters SNP markers in a HapMap format genotype file based on two 
 
    - geno_data contains only genotype data per individual/sample for all SNPs (one row per SNP).
 
+### Step 3: Define a function to calculate MAF
+
+### Step 4: Define a function to calculate missing data rate
+
+### Step 5: Apply the filters
+
+### Step 6: Save filtered SNPs to file
+
 ### B. GWAS_with_GAPIT_for_rice_data.R
 
 ### 1. Load GAPIT functions

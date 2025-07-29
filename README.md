@@ -53,6 +53,12 @@ This R script filters SNP markers in a HapMap format genotype file based on two 
 
 - Adds two new columns MAF and MissingRate to the original hapmap data.
 
+- Keeps only SNPs where:
+
+   - MAF ≥ 0.05 (i.e., enough variation)
+
+   - Missing data ≤ 10% (i.e., reliable genotyping)
+
 ### Step 6: Save filtered SNPs to file
 
 ### B. GWAS_with_GAPIT_for_rice_data.R

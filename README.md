@@ -41,7 +41,17 @@ This R script filters SNP markers in a HapMap format genotype file based on two 
 
 ### Step 4: Define a function to calculate missing data rate
 
+- This function checks each genotype:
+
+   - If it's missing or invalid (like "N", "-", "NA", etc.)
+
+- Returns the proportion of missing data in that SNP row.
+
 ### Step 5: Apply the filters
+
+- Calculates MAF and MissingRate for each SNP (row).
+
+- Adds two new columns MAF and MissingRate to the original hapmap data.
 
 ### Step 6: Save filtered SNPs to file
 

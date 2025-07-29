@@ -65,7 +65,7 @@ This R script filters SNP markers in a HapMap format genotype file based on two 
 
 - Removes the extra MAF and MissingRate columns when saving.
 
-### Final Output File: filtered_MAF_hapmap.hmp.txt
+### ✅ Final Output File: filtered_MAF_hapmap.hmp.txt
 
 - Contains only those SNPs that:
 

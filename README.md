@@ -29,6 +29,16 @@ This R script filters SNP markers in a HapMap format genotype file based on two 
 
 ### Step 3: Define a function to calculate MAF
 
+- This function:
+
+   - Removes missing genotypes
+
+   - Splits valid genotypes into single letters (e.g., AG → A, G)
+
+   - Counts allele frequencies
+
+   - Returns the Minor Allele Frequency (MAF) (i.e., frequency of less common allele)
+
 ### Step 4: Define a function to calculate missing data rate
 
 ### Step 5: Apply the filters
